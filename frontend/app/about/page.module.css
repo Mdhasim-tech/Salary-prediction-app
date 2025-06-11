@@ -1,0 +1,57 @@
+.container {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 1rem 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.heading {
+  font-size: 2.25rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #2c5282;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+/* Scoped subheading */
+.subheading {
+  font-size: 1.5rem;
+  color: #1a202c;
+  margin-bottom: 0.75rem;
+}
+
+/* Now all paragraphs must be scoped under .section */
+.section p {
+  line-height: 1.6;
+  color: #4a5568;
+}
+
+/* Make your list scoped under .list */
+.list {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  color: #4a5568;
+}
+
+/* And li scoped under .list */
+.list li {
+  margin-bottom: 0.5rem;
+}
+
+/* Scoped note */
+.note {
+  margin-top: 0.5rem;
+  font-style: italic;
+  color: #718096;
+}
