@@ -9,7 +9,7 @@ export default function Navbar() {
         💼 SalaryPredictor
       </Link>
       <div className={styles.links}>
-        <Link href="/predict">Predict Salary</Link>
+        <Link href="/predict">Predict</Link>
         <Link href="/about">About Us</Link>
       </div>
     </nav>
