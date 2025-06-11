@@ -18,8 +18,9 @@ export default function Navbar() {
       </div>
 
       <div className={`${styles.links} ${menuOpen ? styles.active : ''}`}>
-        <Link href="/predict" onClick={() => setMenuOpen(false)}>Predict Salary</Link>
-        <Link href="/about" onClick={() => setMenuOpen(false)}>About Us</Link>
+         <Link href="/predict" onClick={() => setMenuOpen(false)} className="nav-link">Predict Salary</Link>
+        <Link href="/about" onClick={() => setMenuOpen(false)} className="nav-link">About Us</Link>
+
       </div>
     </nav>
   )
